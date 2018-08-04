@@ -1,8 +1,6 @@
 FROM ubuntu:16.04
 MAINTAINER Amy Tabb
 
-# KEEP UBUNTU OR DEBIAN UP TO DATE
-#https://docs.docker.com/v17.09/engine/userguide/eng-image/dockerfile_best-practices/#cmd
 RUN apt-get update && apt-get install -y \
 	build-essential \
 	cmake	\
